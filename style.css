@@ -7,10 +7,11 @@
 
 .header-logo {
     background-color: rgb(13, 13, 13);
+
     height: 6vh;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;    
+    justify-content: space-evenly;
 }
 
 .logo {
@@ -18,7 +19,7 @@
 }
 
 .header-infos img {
-    width: 0.8rem;
+    width: 1rem;
 }
 
 nav {
@@ -37,8 +38,15 @@ nav {
     font-size: 10px;
 }
 
-.menu-bar a :hover{
+.menu-bar :hover{
     cursor: pointer;
-    font-style: rgb(30, 158, 156);
+    color: rgb(30, 158, 156);
+    text-decoration-line: underline;
 }
 
+.banner {
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
